@@ -1,4 +1,4 @@
-<?php
+<?php //changes for git
 session_start();
 if (!isset($_SESSION['auth'])) {
   header("Location: http://sandbox4.whatasoft.net/login.php");
